@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#CDCDCD"
+        android:text="Increment - Decrement"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:text="0"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/inc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#FAB4B4"
+        android:onClick="incrementNum"
+        android:padding="7dp"
+        android:text="INCREMENT +"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FAB4B4"
+        android:onClick="decrementNum"
+        android:padding="7dp"
+        android:text="DECREMENT -"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#403F3F"
+        android:onClick="resetNum"
+        android:padding="5dp"
+        android:text="RESET"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

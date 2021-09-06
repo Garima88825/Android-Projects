@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Emoji Spinner</string>
+    <string-array name="images">
+        <item>smile</item>
+        <item>sad</item>
+        <item>smirk</item>
+        <item>relaxed</item>
+        <item>wink</item>
+        <item>shocked</item>
+    </string-array>
+</resources>
